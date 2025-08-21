@@ -27,9 +27,9 @@ def get_order_details():
     recipient_country = "CA"
     recipient_phone = "4165551234"
     package_weight = "5"
-    customer_email = "lowenberg1001@gmail.com"
-    company_representative_email = "jrlowenberg@icloud.com"
-    company_rep = "Jacob"
+    customer_email = "customer_email"
+    company_representative_email = "customer_rep_email"
+    company_rep = "rep_name"
     return (shipper_number, shipper_name, shipper_address1, shipper_city, shipper_state, shipper_zip, 
         shipper_country, shipper_phone, recipient_name, recipient_address1, recipient_city, recipient_state, 
         recipient_zip, recipient_country, recipient_phone, package_weight, customer_email, company_representative_email, order, order_num, company_rep)
