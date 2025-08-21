@@ -8,8 +8,8 @@ import base64
 import io
 
 def sendtracking(order, customer_email, trackingnum, customer_rep_email):
-    sender_email = "lowenberg1001@gmail.com"
-    password = "zbgf afea atxt mhwg" 
+    sender_email = "your email"
+    password = "your_app_password" 
 
     msg = MIMEMultipart()
     msg["From"] = sender_email
@@ -47,9 +47,9 @@ def sendtracking(order, customer_email, trackingnum, customer_rep_email):
         server.send_message(msg)
 
 def sendlabel(order, label, order_num): #don's email or vennite
-    sender_email = "lowenberg1001@gmail.com" # prob not my email
-    password = "zbgf afea atxt mhwg" 
-    rep_email = "lowenberg1001@gmail.com"
+    sender_email = "your email"
+    password = "your_app_password" 
+    rep_email = "rep_email"
     # Create email
     msg = MIMEMultipart()
     msg["From"] = sender_email
@@ -81,8 +81,8 @@ def sendlabel(order, label, order_num): #don's email or vennite
 
 
 def send_update(order, customer_email, tracking_num, status):
-    sender_email = "lowenberg1001@gmail.com" # prob not my email
-    password = "zbgf afea atxt mhwg" 
+    sender_email = "your email"
+    password = "your_app_password" 
 
     # Create email
     msg = MIMEMultipart()
