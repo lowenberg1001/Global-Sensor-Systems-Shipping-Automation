@@ -2,8 +2,8 @@ from supabase import create_client
 from datetime import datetime, timezone
 
 # Supabase info
-url = "https://esycmlxppdctmvqaxqzu.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVzeWNtbHhwcGRjdG12cWF4cXp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3ODI3MzIsImV4cCI6MjA3MTM1ODczMn0.LEKReBlNkgFQWOUmDh6raRurNxaN9-KkScTP526QlpE"
+url = "your_supabase_database-url"
+key = "your_key"
 supabase = create_client(url, key)
 
 def upload_tracking(order_number, order_name, customer_email, rep_name, rep_email, tracking, status):
