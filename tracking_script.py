@@ -4,8 +4,8 @@ from all_emails import send_update
 
 
 # Supabase info
-url = "https://esycmlxppdctmvqaxqzu.supabase.co"
-key = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImVzeWNtbHhwcGRjdG12cWF4cXp1Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTU3ODI3MzIsImV4cCI6MjA3MTM1ODczMn0.LEKReBlNkgFQWOUmDh6raRurNxaN9-KkScTP526QlpE"
+url = "your_supabase_database-url"
+key = "your_key"
 supabase = create_client(url, key)
 
 # Keep track of previous statuses in a dict
