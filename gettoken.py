@@ -5,8 +5,8 @@ import requests
 
 def get_oauth_token():
 
-    client_id = 'K53v28fUp7RYbZZMwIcTaCNE1j34smGGB8Gnlrfrq1QcYE6i'
-    client_secret = 'Hesew3xQWv4cWfMtm8pGpTXXYLwMXvRoBIGKItfCh2hKIlkJZekZ1dPGPon0e2QM'
+    client_id = 'Your_Client_ID'
+    client_secret = 'Your_Client_Secret'
 
     url = "https://wwwcie.ups.com/security/v1/oauth/token"
     auth_str = f"{client_id}:{client_secret}"
