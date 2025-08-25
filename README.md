@@ -1,4 +1,3 @@
-# Global-Sensor-Systems-Shipping-Automation
 # Global Sensor Systems - Shipping Automation & Tracking
 
 This repository contains the **shipping and tracking automation system** for Global Sensor Systems. It manages order processing, label generation, shipment tracking, and email notifications.
